@@ -1,3 +1,9 @@
+//for installing the command chown
+# yum install coreutils     [On CentOS/RHEL]
+# apt-get install coreutils     [On Debian/Ubuntu]
+# zypper install coreutils  [On OpenSuse]
+# pacman -S coreutils       [On Arch Linux]
+
 //main command for changing owner
 tuugit@chingisiin-virtualbox:~$ sudo chown testing Desktop 
 [sudo] password for tuugii: ********
